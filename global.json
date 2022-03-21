@@ -7,14 +7,14 @@
     {
     "backend":"lxc",
     "template":"download",
-    "parameters":{"dist": "debian", "release": "bullseye", "arch": "amd64", "no-validate": "true"},
+    "parameters":{"dist": "debian", "release": "bullseye", "arch": "amd64"},
     "family":"debian",
     "name":"bullseye"
   },
     {
     "backend":"lxc",
     "template":"download",
-    "parameters":{"dist": "debian", "release": "buster", "arch": "amd64", "no-validate": "true"},
+    "parameters":{"dist": "debian", "release": "buster", "arch": "amd64"},
     "family":"debian",
     "name":"buster",
     "status":"disabled"
@@ -22,7 +22,7 @@
   {
   "backend":"lxc",
   "template":"download",
-  "parameters":{"dist": "debian", "release": "stretch", "arch": "amd64", "no-validate": "true"},
+  "parameters":{"dist": "debian", "release": "stretch", "arch": "amd64"},
   "name":"stretch",
   "family":"debian",
   "status":"disabled"
@@ -30,7 +30,7 @@
 {
 "backend":"lxc",
 "template":"download",
-"parameters":{"dist": "alpine", "release": "3.14", "arch": "amd64", "no-validate": "true"},
+"parameters":{"dist": "alpine", "release": "3.14", "arch": "amd64"},
 "name":"alpine",
 "family":"alpine",
 "status":"enabled"
